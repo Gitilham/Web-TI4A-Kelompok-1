@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handayani ac.id</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+   
+</head>
+<body>
+
+    <nav>
+        <img src="mainlogo.png" alt="Logo" class="logo">
+        <a href="#home" onclick="showSection('home')">Home Page</a>
+        <a href="#about" onclick="showSection('about')">About</a>
+        <a href="#dapartments" onclick="showSection('dapartments')">Dapartments</a>
+        <a href="#news and event" onclick="showSection('news and event')">News and Event</a>
+        <a href="#gallery" onclick="showSection('gallery')">Gallery</a>
+        <a href="#contact" onclick="showSection('contact')">Contact</a>
+        <a href="#registrasi" onclick="showSection('registrasi')">Regsitration</a>
+    </nav>
+
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
