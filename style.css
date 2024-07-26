@@ -1,3 +1,4 @@
+/* ini untuk css navigasi */
 .logo {
     width: 130px;
     height: auto; 
@@ -42,3 +43,52 @@ section {
 section.active {
     display: block; 
 }
+
+/* ini css untuk tampilan halaman home */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    }
+    headerhome {
+    color: red;
+    font-size: 35px;
+    text-align: center;
+    }
+    
+    .mySlides {
+    display: none;
+    }
+    
+    .mySlides img {
+    width: 100%;
+    vertical-align: middle;
+    }
+    
+    .text {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    }
+    
+    .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0,7s;
+    animation-name: fade;
+    animation-duration: 0,7s;
+    }
+    
+    @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+    }
+    
+    @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+    }
