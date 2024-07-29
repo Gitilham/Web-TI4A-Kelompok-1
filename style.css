@@ -258,4 +258,54 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+/* css untuk halaman dapartments */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.containerprodi {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.program {
+    width: 45%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.program img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+.namajurusan{
+    color: black;
+    text-align: center;
+}
+
+.keterangan {
+    padding: 20px;
+}
+
+.keterangan h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.keterangan p {
+    font-size: 1rem;
+    color: #555;
+} 
     
