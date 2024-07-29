@@ -235,4 +235,27 @@ button[type="submit"]:hover {
 .contact-info strong {
     font-weight: bold;
 }
+
+/* css untuk halaman about */
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+.table-wrapper {
+    flex: 0 0 48%; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
     
